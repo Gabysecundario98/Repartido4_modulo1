@@ -1,0 +1,42 @@
+body {
+    margin: 0%;
+    background-color: aqua;
+    max-width: 600px;
+}
+
+div {
+    max-width: 400px;
+}
+.navegador{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    background-color: #9fa1dd;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    }
+.navegador li {
+    display: inline-flex;
+    
+}
+.encabezado img {
+    align-items: center;
+    max-width: 300px;
+    width: 200px;
+    height: auto;
+}
+.encabezado {
+    display: block;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+ .listado img {
+     max-width: 350px;
+     max-height: auto;
+ }
+ .listado {
+     align-items: center;
+ }
