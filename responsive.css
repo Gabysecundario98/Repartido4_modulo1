@@ -1,11 +1,11 @@
 body {
     margin: 0%;
-    background-color: aqua;
+    background:linear-gradient(rgb(224, 224, 93), rgb(213, 118, 213));
     max-width: 600px;
 }
 
 div {
-    max-width: 400px;
+    max-width: 100%;
 }
 .navegador{
     display: flex;
@@ -22,9 +22,10 @@ div {
     
 }
 .encabezado img {
-    align-items: center;
-    max-width: 300px;
-    width: 200px;
+   
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .encabezado {
@@ -33,10 +34,61 @@ div {
     position: relative;
     align-items: center;
 }
- .listado img {
-     max-width: 350px;
-     max-height: auto;
- }
- .listado {
+.encabezado h1 {
+    background-color: rgb(178, 76, 76);
+    margin: 0%;
+    text-align: center;
+    font-family: 'Rubik Glitch', cursive;
+    color: rgb(189, 208, 83);
+    border: 4px solid black;
+    border-style: groove;
+    border-width: 50%;
+    -webkit-text-stroke: 2px black;
+    color: rgba(234, 234, 121, 0.527); 
+    
+}   
+.encabezado :hover {
+    color: blue;
+}
+
+.listado {
+    text-align: center;
      align-items: center;
+     margin-bottom: 10%;
  }
+
+ .listado img {
+     text-align: center;
+     max-width: 100%;
+     max-height: auto;
+     width: 50%;
+     justify-content: center;
+ }
+
+ .listado img :hover {
+       background-color: blue;
+}
+
+ .juegos {
+     align-items: center;
+     margin: 15%;
+ }
+ 
+ footer {
+     display: block;
+    text-align: center;
+    }
+ 
+
+
+ @media (max-width: 600px){
+     .navegador {
+         display: none;
+     }
+     .juegos img {
+         width: 100%; 
+
+         height: auto;
+     }
+ }
+
