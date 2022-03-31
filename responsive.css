@@ -73,12 +73,28 @@ div {
      align-items: center;
      margin: 15%;
  }
+
+ .juegos a {
+     background-color: orange;
+     border: 3px solid black;
+     color: black;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: small;
+     justify-self: end;
+ }
  
  footer {
      display: block;
     text-align: center;
     }
- 
+ .continuar {
+     display: flex;
+     justify-content: flex-end;
+     margin-right: 0px;
+     max-width: 300px;
+     justify-content: space-between;
+     margin-left: 5%;
+ }
 
 
  @media (max-width: 600px){
